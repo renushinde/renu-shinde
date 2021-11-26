@@ -173,7 +173,7 @@ p {
   width: 5rem;
   height: 0.25rem;
   margin-bottom: 1.25rem;
-  background: var(--clr-primary-5);
+  background: var(--clr-primary-1);
   margin-left: auto;
   margin-right: auto;
 }
@@ -215,7 +215,7 @@ Navbar
 .nav-btn {
   background: transparent;
   border-color: transparent;
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-1);
   font-size: 2rem;
   cursor: pointer;
   justify-self: end;
@@ -245,7 +245,7 @@ Navbar
     transition: var(--transition);
   }
   .nav-links a:hover {
-    color: var(--clr-primary-5);
+    color: var(--clr-primary-1);
   }
   .nav-center {
     display: grid;
@@ -306,7 +306,7 @@ Sidebar
   margin-bottom: 1.5rem;
 }
 .sidebar-links a:hover {
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-1);
 }
 .social-icons {
   display: grid;
@@ -322,7 +322,7 @@ Sidebar
   transition: var(--transition);
 }
 .social-icon:hover {
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-1);
 }
 .close-btn {
   position: absolute;
@@ -398,3 +398,39 @@ Hero
   border-radius: var(--radius);
   position: relative;
 }
+
+/*
+=============== 
+About
+===============
+*/
+/* section title added to globals */
+.about-title {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.about-title .underline {
+  margin-left: 0;
+}
+.about-center {
+  display: grid;
+  gap: 3rem 2rem;
+}
+.about-img {
+  justify-self: center;
+}
+@media screen and (min-width: 992px) {
+  .about-center {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-img {
+    position: relative;
+  }
+  .about-img::before {
+    left: -2rem;
+  }
+  .about-info {
+    align-self: center;
+  }
+}
+/*
