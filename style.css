@@ -455,10 +455,7 @@ Single Page
 .page-info a:hover {
   color: var(--clr-primary-1);
 }
-=============== 
-Projects
-===============
-*/
+/* PROJECTS */
 .projects-text {
   width: 85vw;
   max-width: 30rem;
