@@ -15,7 +15,7 @@ Variables
   /* dark shades of primary color*/
   /* --clr-primary-1: hsl(43, 86%, 17%); */
   --clr-primary-1: hsl(335, 87%, 46%);
-  --clr-primary-2: hsl(341, 73%, 72%);
+  --clr-primary-2: hsla(341, 36%, 91%, 0.925);
   /* --clr-primary-2: hsl(43, 77%, 27%); */
   --clr-primary-3: hsl(43, 72%, 37%);
   --clr-primary-4: hsl(42, 63%, 48%);
@@ -505,7 +505,7 @@ Single Page
 }
 .project-info {
   text-align: center;
-  color: var(--clr-white);
+  color: black;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -517,7 +517,7 @@ Single Page
 }
 .project-info p {
   text-transform: capitalize;
-  color: var(--clr-white);
+  color: black;
 }
 .project:hover .project-info {
   opacity: 1;
@@ -606,6 +606,7 @@ Footer
 }
 .footer .social-icons {
   margin-bottom: 2rem;
+  margin-right: -11rem;
 }
 .footer .social-icon {
   color: var(--clr-primary-1);
